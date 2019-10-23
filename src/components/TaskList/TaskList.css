@@ -1,0 +1,70 @@
+.TasksListMain .theList {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+}
+.TasksListMain .theList li {
+    color: #333;
+    background-color: rgba(255,255,255,.5);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    list-style: none;
+    border:2px solid goldenrod;
+}
+ul.theList {
+    padding: 0;
+}
+.container {
+    display: block;
+    width: 400px;
+    margin: 0px auto 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li * {
+    float: left;
+}
+
+li {
+    overflow: hidden;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+li > input[type="checkbox"] {
+    margin: 0 10px;
+    position: relative;
+    top: 15px;
+}
+li > label {
+    font-size: 18px;
+    line-height: 40px;
+    width: 400px;
+    padding: 0 0 0 11px;
+}
+
+.show-more {
+    margin-top: 10px;
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+    background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+    background-color:#7892c2;
+    border-radius:10px;
+    border:1px solid #4e6096;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:19px;
+    padding:12px 37px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #283966;
+}
+.show-more:hover {
+    background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+    background-color:#476e9e;
+}
+.show-more:active {
+    position:relative;
+    top:1px;
+}
